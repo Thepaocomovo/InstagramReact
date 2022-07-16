@@ -1,22 +1,22 @@
 function Posts() {
-    return <div class="posts">
-        <div class="post">
-            <div class="topo">
-                <div class="usuario">
-                    <img src="assets/img/meowed.svg" />
+    return <div className="posts">
+        <div className="post">
+            <div className="topo">
+                <div className="usuario">
+                    <img src="./assets/img/meowed.svg" alt=""/>
                     meowed
                 </div>
-                <div class="acoes">
+                <div className="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
             </div>
 
-            <div class="conteudo">
-                <img src="assets/img/gato-telefone.svg" />
+            <div className="conteudo">
+                <img src="./assets/img/gato-telefone.svg" alt=""/>
             </div>
 
-            <div class="fundo">
-                <div class="acoes">
+            <div className="fundo">
+                <div className="acoes">
                     <div>
                         <ion-icon name="heart-outline"></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
@@ -27,32 +27,32 @@ function Posts() {
                     </div>
                 </div>
 
-                <div class="curtidas">
-                    <img src="assets/img/respondeai.svg" />
-                    <div class="texto">
+                <div className="curtidas">
+                    <img src="./assets/img/respondeai.svg" alt=""/>
+                    <div className="texto">
                         Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="post">
-            <div class="topo">
-                <div class="usuario">
-                    <img src="assets/img/barked.svg" />
+        <div className="post">
+            <div className="topo">
+                <div className="usuario">
+                    <img src="./assets/img/barked.svg" alt=""/>
                     barked
                 </div>
-                <div class="acoes">
+                <div className="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
             </div>
 
-            <div class="conteudo">
-                <img src="assets/img/dog.svg" />
+            <div className="conteudo">
+                <img src="./assets/img/dog.svg" alt=""/>
             </div>
 
-            <div class="fundo">
-                <div class="acoes">
+            <div className="fundo">
+                <div className="acoes">
                     <div>
                         <ion-icon name="heart-outline"></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
@@ -63,9 +63,9 @@ function Posts() {
                     </div>
                 </div>
 
-                <div class="curtidas">
-                    <img src="assets/img/adorable_animals.svg" />
-                    <div class="texto">
+                <div className="curtidas">
+                    <img src="./assets/img/adorable_animals.svg" alt=""/>
+                    <div className="texto">
                         Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong>
                     </div>
                 </div>

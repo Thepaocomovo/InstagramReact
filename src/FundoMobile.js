@@ -1,5 +1,5 @@
 function FundoMobile() {
-    return <div class="fundo-mobile">
+    return <div className="fundo-mobile">
         <ion-icon name="home"></ion-icon>
         <ion-icon name="search-outline"></ion-icon>
         <ion-icon name="add-circle-outline"></ion-icon>

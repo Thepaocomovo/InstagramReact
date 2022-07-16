@@ -1,10 +1,10 @@
 import Sujestoes from './Sujestoes'
 
 function SideBar() {
-    return <div class="sidebar">
-        <div class="usuario">
-            <img src="assets/img/catanacomics.svg" />
-            <div class="texto">
+    return <div className="sidebar">
+        <div className="usuario">
+            <img src="./assets/img/catanacomics.svg" alt=""/>
+            <div className="texto">
                 <strong>catanacomics</strong>
                 Catana
             </div>
@@ -12,11 +12,11 @@ function SideBar() {
 
         <Sujestoes/>
 
-        <div class="links">
+        <div className="links">
             Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
         </div>
 
-        <div class="copyright">
+        <div className="copyright">
             © 2021 INSTAGRAM DO FACEBOOK
         </div>
     </div>

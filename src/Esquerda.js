@@ -2,7 +2,7 @@ import Storys from './Storys';
 import Posts from './Posts';
 
 function Esquerda() {
-    return <div class="esquerda">
+    return <div className="esquerda">
         <Storys/>
         <Posts/>
     </div>
