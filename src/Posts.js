@@ -1,18 +1,32 @@
+import React from "react";
+
 const array = [];
 
 function ArrayPosts(props) {
     array.push(props);
-    console.log(array)
     return ""
 }
 
 
+
 function GeneratePost() {
-    // props = {usuarioIMG  usuario  conteudoIMG curtidoIMG curtidoUser curtidoQTD}
+    const [icon, setIcon] = React.useState("heart-outline");
+    const [iconColor, setIconColor] = React.useState({color: "#202124"});
+    function Clique(){
+        if(icon === "heart-outline"){
+            setIcon("heart");
+            setIconColor({color: "red"});
+            // alert(iconClass);
+        } else{
+            setIcon("heart-outline");
+            setIconColor({color: "#202124"});
+        }
+    }
+    
     const posts = array.map((post) => <div className="post">
         <div className="topo">
-            <div className="usuario">
-                <img src={post.usuarioIMG} alt="" />
+            <div className="usuario" >
+                <img src={post.usuarioIMG} alt=""  />
                 {post.usuario}
             </div>
             <div className="acoes">
@@ -21,13 +35,13 @@ function GeneratePost() {
         </div>
 
         <div className="conteudo">
-            <img src={post.conteudoIMG} alt="" />
+            <img src={post.conteudoIMG} alt="" onDoubleClick={()=>(Clique())}/>
         </div>
 
         <div className="fundo">
             <div className="acoes">
                 <div>
-                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon style={iconColor}  name={icon} onClick={()=>(Clique())}></ion-icon>
                     <ion-icon name="chatbubble-outline"></ion-icon>
                     <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
@@ -46,6 +60,7 @@ function GeneratePost() {
     </div>)
     return posts
 }
+
 
 function Posts() {
     return <div className="posts">

@@ -390,4 +390,8 @@ body {
     position: relative;
     top: 4px;
   }
+
+  .redIcon {
+    color: red
+  }
 }

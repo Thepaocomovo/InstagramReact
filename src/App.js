@@ -4,7 +4,7 @@ import FundoMobile from './FundoMobile'
 
 
 function App() {
-    return <div className="root">
+    return <div className="App">
         <Navbar/>
         <Corpo/>
         <FundoMobile/>
