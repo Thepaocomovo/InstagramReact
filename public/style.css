@@ -148,6 +148,10 @@ body {
   font-size: 28px;
   cursor: pointer;
 }
+.setinha:hover{
+  opacity: 50%;
+  color: gray;
+}
 
 .post {
   border-radius: 3px;
@@ -310,6 +314,18 @@ body {
   display: none !important;
 }
 
+ion-icon:hover{
+  opacity: 80%;
+}
+
+.nome:hover{
+  opacity: 80%;
+}
+
+.sidebar .texto:hover{
+  opacity: 80%;
+}
+
 @media (max-width: 935px) {
   .sidebar {
     display: none;
@@ -389,9 +405,5 @@ body {
   .instagram-mobile {
     position: relative;
     top: 4px;
-  }
-
-  .redIcon {
-    color: red
   }
 }
