@@ -1,6 +1,6 @@
 <h1>InstagramReact</h1>
 
-<h2>My first project using React.js</h2> 
+<h2>It was my first project using React.js</h2> 
 <h2>It is still only the skelleton of what should really be a React aplication, but I really apreciate to look at it and see how I've improved my skills in the last few months</h2>
 
 
