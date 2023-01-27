@@ -1,7 +1,7 @@
 <h1>InstagramReact</h1>
 
 <h2>It was my first project using React.js</h2> 
-<h2>It is still only the skelleton of what should really be a React aplication, but I really apreciate to look at it and see how I've improved my skills in the last few months</h2>
+<h2>It is still only the skelleton of what should really be a React aplication, but I really apreciate to look at it and see how I've improved my skills in the last few months.</h2>
 
 
 ![WhatsApp Image 2023-01-21 at 18 01 44](https://user-images.githubusercontent.com/106840825/213887021-5f4aca1b-898f-495c-b85e-0f5c9ef7a823.jpeg)
